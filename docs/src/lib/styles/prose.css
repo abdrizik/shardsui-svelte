@@ -46,12 +46,10 @@
       scroll-margin-block-start: 3lh;
     }
 
-    /* Headings own the space below them. */
     &:where(h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + *) {
       margin-block-start: var(--prose-flow);
     }
 
-    /* Standfirst under the page title. */
     &:where(h1 + p) {
       margin-block-start: calc(var(--spacing) * 3);
       font-size: var(--text-lg);
@@ -113,7 +111,6 @@
       padding: calc(var(--spacing) * 0.8) calc(var(--spacing) * 1.2);
     }
 
-    /* Inside a link the blue underline is the affordance; emerald text would fight it. */
     &:where(a code) {
       background-color: color-mix(in oklab, currentColor 8%, transparent);
       color: var(--prose-muted);
@@ -241,7 +238,6 @@
     }
   }
 
-  /* First child adds no space above. Last so it wins ties. */
   > :where(:first-child):not(:where(.not-prose, .not-prose *)),
   > :where(:first-child) > :where(:first-child):not(:where(.not-prose, .not-prose *)),
   :where(li > :first-child, blockquote > :first-child, td > :first-child, th > :first-child):not(
