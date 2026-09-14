@@ -6,5 +6,4 @@ export const plugins = [
     themes: shikiThemes,
     transformers: shikiTransformers
   })
-  // toc({ depth: 3, title: 'On this page' })
 ]

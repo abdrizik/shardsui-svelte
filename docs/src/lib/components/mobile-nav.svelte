@@ -175,7 +175,6 @@
     color: var(--color-gray-500);
   }
 
-  /* The trigger is the only part that stays inside .mobile-nav. */
   .mobile-nav :global {
     .mobile-nav-trigger {
       position: relative;
@@ -193,7 +192,6 @@
         background-color 150ms var(--ease-out),
         scale 150ms var(--ease-out);
 
-      /* 32px box, 44px target. */
       &::before {
         content: '';
         position: absolute;
@@ -254,8 +252,6 @@
       justify-content: flex-start;
     }
 
-    /* Padding is the inset; the panel re-enables hits so taps in the gap
-       fall through to the backdrop. */
     .mobile-nav-popup {
       --inset: calc(var(--spacing) * 3);
 
@@ -318,7 +314,6 @@
         background-color 150ms var(--ease-out),
         scale 150ms var(--ease-out);
 
-      /* 32px box, 44px target. */
       &::before {
         content: '';
         position: absolute;

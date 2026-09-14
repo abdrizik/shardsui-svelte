@@ -58,9 +58,6 @@
 </div>
 
 <style>
-  /* Reference rows render through `Collapsible` child components, so the styles are
-     global; nested under `.reference-group` to stay scoped to a row group and to
-     beat the specificity of the shared `td` rules in prose.css. */
   .table-scroll :global {
     .reference-group {
       /* Safari ignores max-inline-size on cells in auto table layout; there the

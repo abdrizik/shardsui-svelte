@@ -82,7 +82,6 @@
       animation-timeline: scroll(root block);
     }
 
-    /* Eased stops: a bare two-stop gradient bands visibly against flat colour. */
     .page::before {
       inset-block-start: 0;
       background: linear-gradient(
