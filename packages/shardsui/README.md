@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/abdrizik/shardsui/main/docs/static/favicon.svg)
+![](https://raw.githubusercontent.com/abdrizik/shardsui-svelte/main/docs/static/favicon.svg)
 
 # @shardsui/svelte
 

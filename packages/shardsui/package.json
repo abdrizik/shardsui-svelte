@@ -7,10 +7,10 @@
   "homepage": "https://shardsui.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdrizik/shardsui.git",
+    "url": "git+https://github.com/abdrizik/shardsui-svelte.git",
     "directory": "packages/shardsui"
   },
-  "bugs": "https://github.com/abdrizik/shardsui/issues",
+  "bugs": "https://github.com/abdrizik/shardsui-svelte/issues",
   "keywords": [
     "svelte",
     "svelte5",
