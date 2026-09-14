@@ -52,6 +52,7 @@
 <style>
   .mark {
     display: inline-flex;
+    color: var(--color-svelte);
     /* fixed box, so the hit area never depends on the animating child */
     inline-size: calc(var(--spacing) * 8);
     block-size: calc(var(--spacing) * 8);
